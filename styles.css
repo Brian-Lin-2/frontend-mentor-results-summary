@@ -12,14 +12,38 @@
     border: 1px red solid;
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .score {
     border: 1px red solid;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    /* Should fade */
+    background-color: hsl(252, 100%, 67%);
+}
+
+.circle {
+    border: 1px red solid;
+
+    width: 50px;
 }
 
 .stats {
     border: 1px red solid;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .summary__continueButton {
