@@ -34,31 +34,44 @@
     justify-content: center;
     align-items: center;
 
-    /* Gradient uses background/background-image */
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    /* Gradient is a special type of background image. */
+    /* color1, transition percentage (default 50%), color2 */
+    background: linear-gradient(hsl(252, 100%, 67%), 25%, hsl(241, 81%, 54%));
     height: 300px;
-    color:hsl(0, 0%, 100%);
+    color:hsl(241, 100%, 89%);
 }
 
 .circle {
-    border: 1px red solid;
 
+    
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background: linear-gradient(hsla(241, 72%, 46%, 0.5), 75%, hsla(256, 72%, 46%, 0));
 
-    /* px is equivalent to % */
-    border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+
+    margin: 20px;
 }
 
 .circle__header {
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+}
 
+.score__header {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.score__body {
+    text-align: center;
 }
 
 .stats {
@@ -66,14 +79,11 @@
 
     display: flex;
     flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
 }
 
 .summary__continueButton {
     border: 1px red solid;
 
     background-color: hsl(224, 30%, 27%);
-    color: hsl(0, 0%, 100%);
+    color: hsl(241, 100%, 89%);
 }
