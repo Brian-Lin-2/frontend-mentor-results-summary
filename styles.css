@@ -88,10 +88,13 @@
 
 .stats {
     border: 1px red solid;
+    border-radius: 15px;
 
     display: flex;
     justify-content: space-between;
+
     margin: 15px 0px;
+    padding: 20px;
 }
 
 .button {
