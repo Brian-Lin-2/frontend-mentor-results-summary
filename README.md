@@ -26,10 +26,10 @@ Users should be able to:
 ### Screenshot
 
 Desktop Version:
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/19761406/228931970-8860f88e-2184-464a-8356-8e7bc4d7e43e.png">
+<br/> <img width="700" alt="image" src="https://user-images.githubusercontent.com/19761406/228931970-8860f88e-2184-464a-8356-8e7bc4d7e43e.png">
 
 Desktop Version (Active State):
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/19761406/228928108-031fbfb9-548b-4cbb-8795-4234241cb679.png">
+<br/> <img width="700" alt="image" src="https://user-images.githubusercontent.com/19761406/228928108-031fbfb9-548b-4cbb-8795-4234241cb679.png">
 
 Mobile Version:
 <br/> <img width="193" alt="image" src="https://user-images.githubusercontent.com/19761406/228928790-25fbf73f-e351-4b04-9507-1d9a28c7fcfc.png">
