@@ -120,11 +120,12 @@ body {
 
     .score__results {
         font-size: 22px;
+        margin-bottom: 20px;
     }
 
     .score__header {
         font-size: 30px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
 
@@ -209,6 +210,7 @@ body {
 
 .button {
     border-radius: 25px;
+    border: none;
 
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
@@ -223,5 +225,12 @@ body {
     .button {
         padding: 15px;
         width: 275px;
+        margin-top: 10px;
+    }
+
+    .button:hover {
+        cursor: pointer;
+
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     }
 }
