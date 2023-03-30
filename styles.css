@@ -6,6 +6,10 @@
     font-family: 'Hanken Grotesk', 'Times New Roman', Times, serif;
 }
 
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
 
@@ -19,7 +23,8 @@
 
     align-items: center;
 
-    width: 400px;
+    height: 809px;
+    width: 375px;
 }
 
 .score {
@@ -79,7 +84,7 @@
     padding: 20px 30px;
     gap: 10px;
 
-    width: 400px;
+    width: 375px;
 }
 
 .summary__header {
@@ -98,7 +103,7 @@
     display: flex;
     justify-content: space-between;
 
-    margin: 15px 0px;
+    margin-top: 15px;
     padding: 20px;
 }
 
@@ -138,5 +143,11 @@
 
     padding: 15px;
 
-    width: 350px;
+    width: 325px;
 }
+/* 
+@media screen and (min-width: 375px) {
+    body {
+      background-color: lightgreen;
+    }
+} */
