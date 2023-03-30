@@ -8,6 +8,14 @@
 
 body {
     margin: 0;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
 }
 
 .container {
@@ -18,7 +26,14 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
+    .body {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+    }
+
     .container {
         width: 1440px;
         height: 1080px;
@@ -36,7 +51,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .panel {
         flex-direction: row;
         justify-content: center;
@@ -90,7 +105,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .circle {
         width: 175px;
         height: 175px;
@@ -112,7 +127,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .score {
         border-radius: 30px;
         height: 475px;
@@ -144,7 +159,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .summary {
         height: 450px;
     }
@@ -172,7 +187,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .stats {
         padding: 15px;
         width: 275px;
@@ -221,7 +236,7 @@ body {
 }
 
 /* Desktop Design */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1000px) {
     .button {
         padding: 15px;
         width: 275px;
