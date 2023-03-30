@@ -11,8 +11,6 @@ body {
 }
 
 .container {
-    border: 1px red solid;
-
     display: flex;
 
     justify-content: center;
@@ -22,8 +20,6 @@ body {
 /* Desktop Design */
 @media screen and (min-width: 500px) {
     .container {
-        border: 1px red solid;
-
         width: 1440px;
         height: 1080px;
     }
@@ -45,8 +41,8 @@ body {
         flex-direction: row;
         justify-content: center;
 
-        height: 450px;
-        width: 700px;
+        height: 475px;
+        width: 675px;
 
         border-radius: 30px;
         box-shadow: 5px 10px 30px hsla(241, 100%, 89%, 50%);
@@ -64,21 +60,12 @@ body {
     /* color1, transition percentage (default 50%), color2 */
     background: linear-gradient(hsl(252, 100%, 67%), 25%, hsl(241, 81%, 54%));
     height: 400px;
-    color:hsl(241, 100%, 89%);
+    color:hsla(241, 100%, 89%, 75%);
 
     padding: 0px 50px;
 
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-}
-
-/* Desktop Design */
-@media screen and (min-width: 500px) {
-    .score {
-        border-radius: 30px;
-
-        height: 450px;
-    }
 }
 
 .circle {
@@ -102,6 +89,18 @@ body {
     font-size: 50px;
 }
 
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .circle {
+        width: 175px;
+        height: 175px;
+    }
+
+    .circle__header {
+        font-size: 60px;
+    }
+}
+
 .score__header {
     color: hsl(0, 0%, 100%);
     font-size: 22px;
@@ -110,6 +109,23 @@ body {
 
 .score__body {
     text-align: center;
+}
+
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .score {
+        border-radius: 30px;
+        height: 475px;
+    }
+
+    .score__results {
+        font-size: 22px;
+    }
+
+    .score__header {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
 }
 
 .summary {
@@ -122,15 +138,20 @@ body {
     width: 375px;
 }
 
+.summary__header {
+    font-weight: bold;
+}
+
 /* Desktop Design */
 @media screen and (min-width: 500px) {
     .summary {
         height: 450px;
     }
-}
 
-.summary__header {
-    font-weight: bold;
+    .summary__header {
+        margin-top: 10px;
+        font-size: 22px;
+    }
 }
 
 .skills {
@@ -148,6 +169,15 @@ body {
     margin: 15px 0px;
     padding: 20px;
 }
+
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .stats {
+        padding: 15px;
+        width: 275px;
+    }
+}
+
 
 .stats--reaction {
     color: hsl(0, 100%, 67%);
@@ -186,4 +216,12 @@ body {
     padding: 15px;
 
     width: 325px;
+}
+
+/* Desktop Design */
+@media screen and (min-width: 500px) {
+    .button {
+        padding: 15px;
+        width: 275px;
+    }
 }
